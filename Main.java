@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void contador()  throws IOException {
-        InputStream input = new FileInputStream("leeme.txt");
+        InputStream input = new FileInputStream("elHobbit.txt");
         PrintStream output = new PrintStream("output.txt");
         HashMap<String, Integer> map = new HashMap<>();
         ArrayList<String> list = new ArrayList<>();
